@@ -3,11 +3,11 @@
 Authors: Yixiao Chen, Yanyue Xie, Ruining Yang, Pu Zhao *et al.*
 
 [![arXiv](https://img.shields.io/badge/arXiv-2509.25689-df2a2a?logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2509.25689)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-bobchenyx-FFD21F?logo=huggingface&logoColor=yellow)](https://huggingface.co/bobchenyx/DeepSeek-V3-0324-MLA-GGUF)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Moxin-FFD21F?logo=huggingface&logoColor=yellow)](moxin-org/DeepSeek-V3-0324-Moxin-GGUF)
 [![DeepSeek](https://img.shields.io/badge/DeepSeek-Reference-0078D7?labelColor=555555&logoColor=white)](https://github.com/deepseek-ai/DeepSeek-V3)
 [![llama.cpp](https://img.shields.io/badge/llama.cpp-Reference-4CAF50?labelColor=555555&logo=github&logoColor=white)](https://github.com/ggml-org/llama.cpp)
 
-## Intro
+## Introduction
 The Mixture of Experts (MoE) architecture enables scaling Large Language Models (LLMs) efficiently by increasing capacity without raising computation cost. However, ultra-large MoEs like DeepSeek-V3 still pose challenges for deployment on memory-constrained edge devices.  
 We introduce a collaborative compression framework that integrates expert pruning, activation adjustment, and mixed-precision quantization, reducing DeepSeek-V3’s storage from 1.3 TB to 103 GB while maintaining considerable accuracy. 
 
@@ -17,7 +17,7 @@ We introduce a collaborative compression framework that integrates expert prunin
 </div><br/>
 The overall framework architecture of CC-MoE. The middle part shows a block-level schematic of DeepSeek MoE. The left part highlights our Performance-Aware Expert Reduction and Pruning-Aware Activation Adjustment for FFN layers, while the right part illustrates the mixed-precision quantization process applied to the remaining model.
 
-## Usage Guide
+## Usage
 For each component of this project, we provide detailed usage instructions and examples in the corresponding subfolder README files.  
 Please refer to those for step-by-step tutorials and implementation details.
 
@@ -26,7 +26,7 @@ Please refer to those for step-by-step tutorials and implementation details.
 - [`benchmark/`](./benchmark/) — GGUF benchmarking and evaluation methods.  
 
 
-## Model Download
+## Download
 All of our released models are publicly available on [🤗Hugging Face](https://huggingface.co/bobchenyx/DeepSeek-V3-0324-MLA-GGUF).  
 You are welcome to visit our page for more details, or download and test the models directly using our provided scripts.
 ```
