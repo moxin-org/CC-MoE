@@ -1,0 +1,7 @@
+{
+    "general.name": "DeepSeek-V3-0324",
+    "general.basename": "DeepSeek-V3-0324",
+    "general.quantized_by": "moxin-org",
+    "general.repo_url": "https://huggingface.co/moxin-org",
+    "general.tags": ["deepseek_v3", "deepseek", "moxin-org", "transformers"]
+}
