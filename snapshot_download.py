@@ -6,9 +6,9 @@ from huggingface_hub import snapshot_download
 print("Starting download...")
 
 snapshot_download(
-    repo_id = "bobchenyx/DeepSeek-V3-0324-MLA-GGUF",
-    local_dir = "bobchenyx/DeepSeek-V3-0324-MLA-GGUF",
-    allow_patterns = ["*IQ1_M*"],
+    repo_id = "moxin-org/DeepSeek-V3-0324-Moxin-GGUF",
+    local_dir = "DeepSeek-V3-0324-Moxin-GGUF",
+    allow_patterns = ["*IQ1_M*"], #IQ1_S
 )
 
 print("Download finished.")
